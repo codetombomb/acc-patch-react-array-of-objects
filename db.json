@@ -5,200 +5,200 @@
       "name": "White chocolate and cake pop ice-cream dessert",
       "image": "https://img.taste.com.au/nohp8XG6/w720-h480-cfill-q80/taste/2016/11/white-chocolate-and-cake-pop-ice-cream-dessert-69514-1.jpeg",
       "description": "Turn Christmas dessert into pop art with these colourful baubles sandwiched between sweet vanilla ice-cream and a crunchy biscuit shell.",
-      "price": 8.99,
       "cakeType": "Ice Cream Dessert",
       "flavorVariations": ["Vanilla", "Chocolate", "Strawberry"],
-      "featured": true
+      "featured": true,
+      "likes": 0
     },
     {
+      "id": 2,
       "name": "Fairy bread icebox cake",
       "image": "https://img.taste.com.au/qYclOeMO/w720-h480-cfill-q80/taste/2017/05/fairy-bread-icebox-cake-126271-1.jpg",
       "description": "For the perfect party cake, try this fairy bread icebox cake made from storebought biscuits.",
-      "id": 2,
-      "price": 6.49,
       "cakeType": "Cake",
       "flavorVariations": ["Vanilla", "Chocolate", "Strawberry"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 3,
       "name": "'Better than Brad Pitt' five-layer dessert",
       "image": "https://img.taste.com.au/44mhGT_T/w720-h480-cfill-q80/taste/2016/11/better-than-brad-pitt-five-layer-dessert-108653-1.jpeg",
       "description": "This pudding is an update of a 1970's American dessert known as 'Better than Robert Redford'. It includes chocolate in all its forms - white, dark, milk. Team with cream, and it's a dream come true.",
-      "id": 3,
-      "price": 9.75,
       "cakeType": "Pudding",
       "flavorVariations": ["Chocolate", "Caramel", "Vanilla"],
-      "featured": true
+      "featured": true,
+      "likes": 0
     },
     {
+      "id": 4,
       "name": "S'mores waffles",
       "image": "https://img.taste.com.au/EABv3WGL/w720-h480-cfill-q80/taste/2016/11/smores-waffles-94040-1.jpeg",
       "description": "Keep it short and sweet with this s'mores dessert that is ready in a flash.",
-      "id": 4,
-      "price": 5.99,
       "cakeType": "Waffles",
       "flavorVariations": ["Chocolate", "Marshmallow", "Graham Cracker"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 5,
       "name": "Tiramisu fridge cake",
       "image": "https://img.taste.com.au/Vh-59q3a/w720-h480-cfill-q80/taste/2017/03/tiramisufridgecake-123081-1.jpg",
       "description": "Impress your guests with this showstopper tiramisu fridge cake.",
-      "id": 5,
-      "price": 7.25,
       "cakeType": "Cake",
       "flavorVariations": ["Coffee", "Mascarpone", "Cocoa"],
-      "featured": true
+      "featured": true,
+      "likes": 0
     },
     {
+      "id": 6,
       "name": "Double-choc brownie 'sausage rolls'",
       "image": "https://img.taste.com.au/qW-y6zdt/w720-h480-cfill-q80/taste/2016/11/double-choc-brownie-sausage-rolls-109495-1.jpeg",
       "description": "Kids and adults alike will get a kick out of this sweet spin on a footy-party classic. Maybe we should save them for April Fools' Day!",
-      "id": 6,
-      "price": 6.99,
       "cakeType": "Brownie",
       "flavorVariations": ["Chocolate", "Peanut Butter", "Mint"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 7,
       "name": "Panna cotta and jaffa mousse with boozy strawberries",
       "image": "https://img.taste.com.au/3sbJz5w0/w720-h480-cfill-q80/taste/2016/11/panna-cotta-and-jaffa-mousse-with-boozy-strawberries-105062-1.jpeg",
       "description": "A special occasion dessert that tastes as spectacular as it looks. Made with care and love it's a perfect end to any dinner party.",
-      "id": 7,
-      "price": 10.99,
       "cakeType": "Panna Cotta",
       "flavorVariations": ["Jaffa", "Strawberry", "Raspberry"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 8,
       "name": "Chocolate mousse slice with hazelnut praline",
       "image": "https://img.taste.com.au/1e4esgbH/w720-h480-cfill-q80/taste/2016/11/chocolate-mousse-slice-with-hazelnut-praline-103315-1.jpeg",
       "description": "Cooking for a crowd and want to treat them to a special dessert? Try this chocolate mousse slice that serves 30.",
-      "id": 8,
-      "price": 12.49,
       "cakeType": "Mousse",
       "flavorVariations": ["Chocolate", "Hazelnut", "Praline"],
-      "featured": true
+      "featured": true,
+      "likes": 0
     },
     {
+      "id": 9,
       "name": "Polka dot angel food cake",
       "image": "https://img.taste.com.au/GW-F168e/w720-h480-cfill-q80/taste/2016/11/polka-dot-angel-food-cake-109841-1.jpeg",
       "description": "Show off your angelic side with this creative vanilla cake dessert. Chocolate ganache covered in sprinkles makes it taste heavenly.",
-      "id": 9,
-      "price": 8.75,
       "cakeType": "Angel Food Cake",
       "flavorVariations": ["Vanilla", "Chocolate", "Strawberry"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 10,
       "name": "Vanilla labne tart with sesame sprinkle",
       "image": "https://img.taste.com.au/tk4THvtH/w720-h480-cfill-q80/taste/2017/02/vanillalabnetartwithsesamesprinkle-120342-1.jpg",
       "description": "Whether it's for morning tea or dessert, this decadent nutty tart will win everyone over.",
-      "id": 10,
-      "price": 9.25,
       "cakeType": "Tart",
       "flavorVariations": ["Vanilla", "Labne", "Sesame"],
-      "featured": true
+      "featured": true,
+      "likes": 0
     },
     {
+      "id": 11,
       "name": "Martha's baked Alaska with chocolate cake and chocolate ice-cream",
       "image": "https://img.taste.com.au/F6lNJIHb/w720-h480-cfill-q80/taste/2016/11/marthas-baked-alaska-with-chocolate-cake-and-chocolate-ice-cream-96960-1.jpeg",
       "description": "Chocolate ice-cream in an oven? If it's bundled up in a thick layer of meringue, the outside caramelises and inside remains brilliantly chilly.",
-      "id": 11,
-      "price": 11.99,
       "cakeType": "Baked Alaska",
       "flavorVariations": ["Chocolate", "Ice Cream", "Meringue"],
-      "featured": true
+      "featured": true,
+      "likes": 0
     },
     {
+      "id": 12,
       "name": "Apple-filled monkey bread",
       "image": "https://img.taste.com.au/nOhUtumX/w720-h480-cfill-q80/taste/2016/11/apple-filled-monkey-bread-109059-1.jpeg",
       "description": "Gooey dough balls stuffed with seasonal apples and drizzled with caramel make a very sweet dessert indeed.",
-      "id": 12,
-      "price": 7.99,
       "cakeType": "Monkey Bread",
       "flavorVariations": ["Apple", "Caramel", "Cinnamon"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 13,
       "name": "Rich chocolate custard poke cake",
       "image": "https://img.taste.com.au/X8vMpgBU/w720-h480-cfill-q80/taste/2017/06/ricechocolatepokecake-127622-1.jpg",
       "description": "We've put a spin on this popular cake from the 1970's and filled the holes with thick chocolate custard instead of classic jelly.",
-      "id": 13,
-      "price": 8.49,
       "cakeType": "Poke Cake",
       "flavorVariations": ["Chocolate", "Custard", "Fudge"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 14,
       "name": "Fairy bread layered sponge",
       "image": "https://img.taste.com.au/0jCCsCVc/w720-h480-cfill-q80/taste/2017/05/fairy-bread-layered-sponge-126269-1.jpg",
       "description": "For the ultimate party cake, wow a crowd with this spectacular 3-layer fairy bread sponge.",
-      "id": 14,
-      "price": 9.75,
       "cakeType": "Sponge Cake",
       "flavorVariations": ["Vanilla", "Rainbow", "Chocolate"],
-      "featured": true
+      "featured": true,
+      "likes": 0
     },
     {
+      "id": 15,
       "name": "Over-the-top chunky chocolate brownie tart",
       "image": "https://img.taste.com.au/IRfD_Usr/w720-h480-cfill-q80/taste/2017/03/over-the-top-chunky-chocolate-brownie-tart-123085-2.jpg",
       "description": "15Over-the-top chunky chocolate brownie tart",
-      "id": 15,
-      "price": 11.49,
       "cakeType": "Tart",
       "flavorVariations": ["Chocolate", "Brownie", "Fudge"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 16,
       "name": "Chewy pavlova with caramel and Nutella fudge sauce",
       "image": "https://img.taste.com.au/JFXd_u0Q/w720-h480-cfill-q80/taste/2017/02/chewypavlovawithcaramelandnutellafudgesauce-122754-2.jpg",
       "description": "Our sky-high pavlova tower is drizzled with sweet caramel, a gooey Nutella sauce and finished with chocolate eggs.",
-      "id": 16,
-      "price": 10.25,
       "cakeType": "Pavlova",
       "flavorVariations": ["Meringue", "Caramel", "Nutella"],
-      "featured": true
+      "featured": true,
+      "likes": 0
     },
     {
+      "id": 17,
       "name": "Sweet potato pancake stack",
       "image": "https://img.taste.com.au/0W93IUCg/w720-h480-cfill-q80/taste/2016/11/sweet-potato-pancake-stack-109197-1.jpeg",
       "description": "Sweet potato adds a quirky twist to classic pancakes. With ricotta and maple syrup on top, it's delicious whether it's a sweet breakfast, brunch or dessert.",
-      "id": 17,
-      "price": 7.99,
       "cakeType": "Pancake Stack",
       "flavorVariations": ["Sweet Potato", "Ricotta", "Maple Syrup"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 18,
       "name": "Sweet 'sushi' cakes",
       "image": "https://img.taste.com.au/xfGu7toZ/w720-h480-cfill-q80/taste/2016/11/sweet-sushi-cakes-107930-1.jpeg",
       "description": "This adorable sweet 'sushi' plate looks amazing but is ridiculously easy. Bought sponge rolls, melted chocolate and sprinkles!",
-      "id": 18,
-      "price": 6.75,
       "cakeType": "Sushi Cake",
       "flavorVariations": ["Sponge", "Chocolate", "Sprinkles"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 19,
       "name": "Giant Turkish delight marshmallow meringues",
       "image": "https://img.taste.com.au/SB68cpLu/w720-h480-cfill-q80/taste/2016/11/giant-turkish-delight-marshmallow-meringues-105346-1.jpeg",
       "description": "Love Turkish delight? Love meringue? Love marshmallows? All three favourites come together in this fun tea-time treat.",
-      "id": 19,
-      "price": 9.99,
       "cakeType": "Meringues",
       "flavorVariations": ["Turkish Delight", "Meringue", "Marshmallow"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     },
     {
+      "id": 20,
       "name": "Grilled cinnamon doughnuts with maple bananas",
       "image": "https://img.taste.com.au/ya3QPWVe/w720-h480-cfill-q80/taste/2016/11/grilled-cinnamon-doughnuts-with-maple-bananas-102416-1.jpeg",
       "description": "We all need a treat to get through the working week, and these ones are ready fast.",
-      "id": 20,
-      "price": 5.49,
       "cakeType": "Doughnuts",
       "flavorVariations": ["Cinnamon", "Maple", "Banana"],
-      "featured": false
+      "featured": false,
+      "likes": 0
     }
   ]
 }

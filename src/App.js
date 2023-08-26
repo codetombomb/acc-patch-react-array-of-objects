@@ -2,6 +2,7 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import ItemCardSection from "./Components/ItemCardSection/ItemCardSection";
+import EditItemSection from "./Components/EditItemSection/EditItemSection";
 
 function App() {
   const [desserts, setDesserts] = useState([])
@@ -12,9 +13,10 @@ function App() {
       .then(desserts => setDesserts(desserts))
   }, []);
   
-  return <div className="App">
+  return <div className="app">
     <Sidebar />
     <ItemCardSection />
+    <EditItemSection />
   </div>;
 }
 
