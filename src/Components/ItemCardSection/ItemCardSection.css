@@ -1,10 +1,19 @@
 .item-card-section {
     padding-top: 2%;
     background-color: #FDF9C5;
-    max-width: 50%;
+    min-width: 50%;
     flex-grow: 1.5;
     display: flex;
     align-items: center;
     flex-direction: column;
     overflow-y: scroll;
+}
+
+.add-item-button-container {
+    width: 2em;
+    margin-bottom: 5%;
+}
+
+.add-item-button-container img {
+    cursor: pointer;
 }
