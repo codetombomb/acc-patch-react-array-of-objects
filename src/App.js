@@ -6,6 +6,7 @@ import EditItemSection from "./Components/EditItemSection/EditItemSection";
 
 function App() {
   const [desserts, setDesserts] = useState([]);
+  const [selectedOption, setSelectedOption] = useState("Edit Items");
 
   useEffect(() => {
     fetch("http://localhost:3000/desserts")
@@ -13,9 +14,16 @@ function App() {
       .then((desserts) => setDesserts(desserts));
   }, []);
 
+  const onSelectOption = (option) => {
+    setSelectedOption(option);
+  };
+
   return (
     <div className="app">
-      <Sidebar />
+      <Sidebar
+        selectedOption={selectedOption}
+        handleSelectedOption={onSelectOption}
+      />
       <ItemCardSection desserts={desserts} />
       <EditItemSection />
     </div>
