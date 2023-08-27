@@ -3,9 +3,16 @@ import "./ItemCard.css";
 import editIcon from "../../../Icons/edit.svg";
 import deleteIcon from "../../../Icons/delete.svg";
 
-const ItemCard = ({ dessert, handleEditDessertClick }) => {
+const ItemCard = ({ dessert, handleEditDessertClick, handleDeleteDessertClick }) => {
   const { id, name, image, description, cakeType } =
     dessert;
+    const onDeleteDessertClick = () => {
+      const config = {
+        method: "DELETE"
+      }
+      fetch(`http://localhost:3000/desserts/${id}`, config)
+      handleDeleteDessertClick(dessert)
+    }
   return (
     <div className="item-card">
       <h1>{name}</h1>
@@ -18,7 +25,7 @@ const ItemCard = ({ dessert, handleEditDessertClick }) => {
           <img src={editIcon} alt="edit icon" onClick={() => handleEditDessertClick(id)}/>
         </span>
         <span className="card-btn">
-          <img src={deleteIcon} alt="delete" onClick={() => handleEditDessertClick(id)}/>
+          <img src={deleteIcon} alt="delete" onClick={onDeleteDessertClick}/>
         </span>
       </div>
     </div>

@@ -1,8 +1,7 @@
-import './ItemForm.css'
-import { useState, useEffect } from "react";
+import "./ItemForm.css";
+import { useState } from "react";
 
-
-const ItemForm = () => {
+const ItemForm = ({ handleCreateDessert }) => {
   const [dessert, setDessert] = useState({
     name: "",
     image: "",
@@ -10,22 +9,37 @@ const ItemForm = () => {
     cakeType: "",
   });
 
-  // useEffect(() => {
-  //   console.log(dessertId)
-  //     fetch(`http://localhost:3000/desserts/${dessertId}`)
-  //     .then((resp) => resp.json())
-  //     .then((dessertData) => setDessert(dessertData));
-  // }, [dessertId]);
-
   const onInputChange = (e) => {
     const updateDessert = { ...dessert };
     updateDessert[e.target.name] = e.target.value;
     setDessert(updateDessert);
   };
 
+  const onFormSubmit = (e) => {
+    e.preventDefault();
+    const config = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(dessert),
+    };
+    fetch("http://localhost:3000/desserts", config)
+      .then((resp) => resp.json())
+      .then((data) => handleCreateDessert(data));
+
+    setDessert({
+      name: "",
+      image: "",
+      description: "",
+      cakeType: ""
+    });
+  };
+
   return (
     <div className="item-form">
-      <form>
+      <form onSubmit={onFormSubmit}>
         <h2>New Dessert</h2>
         <label htmlFor="name">Name</label>
         <input

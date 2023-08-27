@@ -2,7 +2,6 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import ItemCardSection from "./Components/ItemCardSection/ItemCardSection";
-import EditItemSection from "./Components/EditItemSection/EditItemSection";
 import ItemForm from "./Components/EditItemSection/ItemForm/ItemForm";
 import EditItemForm from "./Components/EditItemSection/EditItemForm/EditItemForm";
 
@@ -10,7 +9,6 @@ function App() {
   const [desserts, setDesserts] = useState([]);
   const [selectedOption, setSelectedOption] = useState("Edit Items");
   const [dessertId, setDessertId] = useState(null);
-  const [dessertTypes, setDessertTypes] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3000/desserts")
@@ -26,15 +24,37 @@ function App() {
     setDessertId(dessertId);
   };
 
+  const onDeleteDessertClick = (deletedDessert) => {
+    const filteredDesserts = desserts.filter(
+      (dessert) => dessert !== deletedDessert
+    );
+    setDesserts(filteredDesserts);
+    setDessertId(null);
+  };
+
   const onCreateDessert = (dessert) => {
     setDesserts([...desserts, dessert]);
+    setDessertId(null);
+  };
+
+  const onDessertUpdate = (updatedDessert) => {
+    const updatedDesserts = desserts.map((dessert) =>
+      dessert.id === updatedDessert.id ? updatedDessert : { ...dessert }
+    );
+    setDesserts(updatedDesserts)
+    setDessertId(null);
   };
 
   const renderForm = () => {
     if (dessertId) {
-      return <EditItemForm dessertId={dessertId} dessertTypes={dessertTypes} />;
+      return (
+        <EditItemForm
+          dessertId={dessertId}
+          handleDessertUpdate={onDessertUpdate}
+        />
+      );
     } else {
-      return <ItemForm />;
+      return <ItemForm handleCreateDessert={onCreateDessert} />;
     }
   };
 
@@ -48,6 +68,7 @@ function App() {
         desserts={desserts}
         handleEditDessertClick={onFormSelection}
         handleAddNewDessertClick={onFormSelection}
+        handleDeleteDessertClick={onDeleteDessertClick}
       />
       {renderForm()}
     </div>
