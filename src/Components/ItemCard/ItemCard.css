@@ -1,0 +1,43 @@
+.item-card {
+    width: 40%;
+    padding: 3%;
+    /* border: 2px solid #7CAE6C; */
+    background-color: #a1e889;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.item-card > h4 {
+    text-align: center;
+    margin: 5%;
+}
+
+.item-card > ul {
+    padding-left: 5%;
+}
+
+.item-card > h1 {
+    text-align: center;
+}
+
+.item-card-image {
+    width: 100%;
+    margin: 5% 0 2% 0;
+}
+
+.card-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.card-btn {
+    width: 8%;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+
+.card-btn > img {
+    height: inherit;
+}
