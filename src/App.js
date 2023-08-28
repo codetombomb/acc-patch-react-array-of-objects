@@ -41,18 +41,14 @@ function App() {
     const updatedDesserts = desserts.map((dessert) =>
       dessert.id === updatedDessert.id ? updatedDessert : { ...dessert }
     );
-    setDesserts(updatedDesserts)
+    setDesserts(updatedDesserts);
     setDessertId(null);
   };
 
   const renderForm = () => {
+    // What information does the EditItemForm need to know about?
     if (dessertId) {
-      return (
-        <EditItemForm
-          dessertId={dessertId}
-          handleDessertUpdate={onDessertUpdate}
-        />
-      );
+      return <EditItemForm />; // Add props here
     } else {
       return <ItemForm handleCreateDessert={onCreateDessert} />;
     }
