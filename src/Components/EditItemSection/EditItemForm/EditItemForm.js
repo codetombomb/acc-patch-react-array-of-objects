@@ -21,8 +21,9 @@ function EditItemForm() { // Receive and destructure props
   };
 
   return (
-    <div className="edit-item-form">
+    <div className="edit-item-form-wrapper">
       {/* WRITE CODE HERE!  */}
+      Edit form goes here!
     </div>
   );
 }

@@ -1,4 +1,17 @@
-.edit-item-form {
-    background-color: #E59FBB;
+.edit-item-form-wrapper {
+    background-color: #e59fbb;
     flex-grow: 1;
-}
+    min-width: 500px;
+  }
+  
+  .item-form {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    border: 2px solid black;
+  }
+  
+  .item-form label {
+    margin-top: 2%;  
+  }
+  

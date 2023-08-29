@@ -1,7 +1,7 @@
 .sidebar-section {
   background-color: #612312;
   color: white;
-  flex-grow: 0.2;
+  flex-grow: .3;
   min-width: 150px;
 }
 

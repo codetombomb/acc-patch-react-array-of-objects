@@ -1,8 +1,7 @@
 .item-card-section {
     padding-top: 2%;
     background-color: #FDF9C5;
-    min-width: 50%;
-    flex-grow: 1.5;
+    flex-grow: 1;
     display: flex;
     align-items: center;
     flex-direction: column;
