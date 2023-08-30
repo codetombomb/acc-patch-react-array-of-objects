@@ -2,8 +2,8 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import ItemCardSection from "./Components/ItemCardSection/ItemCardSection";
-import ItemForm from "./Components/EditItemSection/ItemForm/ItemForm";
-import EditItemForm from "./Components/EditItemSection/EditItemForm/EditItemForm";
+import ItemForm from "./Components/FormSection/ItemForm/ItemForm";
+import EditItemForm from "./Components/FormSection/EditItemForm/EditItemForm";
 
 function App() {
   const [desserts, setDesserts] = useState([]);

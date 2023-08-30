@@ -1,7 +1,11 @@
-.edit-item-form-wrapper {
+.form-wrapper {
     background-color: #e59fbb;
     flex-grow: 1;
     min-width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .item-form {
@@ -11,7 +15,7 @@
     border: 2px solid black;
   }
   
-  .item-form label {
-    margin-top: 2%;  
+  .item-form input {
+    margin-bottom: 5%;  
   }
   

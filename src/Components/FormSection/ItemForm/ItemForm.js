@@ -1,4 +1,4 @@
-import "./ItemForm.css";
+import '../forms.css'
 import { useState } from "react";
 
 const ItemForm = ({ handleCreateDessert }) => {
@@ -38,7 +38,7 @@ const ItemForm = ({ handleCreateDessert }) => {
   };
 
   return (
-    <div className="item-form-wrapper">
+    <div className="form-wrapper">
       <form className="item-form" onSubmit={onFormSubmit}>
         <h2>New Dessert</h2>
         <label htmlFor="name">Name</label>

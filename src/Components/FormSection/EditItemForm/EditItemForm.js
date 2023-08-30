@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./EditItemForm.css";
+import '../forms.css'
 
 function EditItemForm() { // Receive and destructure props
   // create dessert state for controlled form
@@ -21,7 +21,7 @@ function EditItemForm() { // Receive and destructure props
   };
 
   return (
-    <div className="edit-item-form-wrapper">
+    <div className="form-wrapper">
       {/* WRITE CODE HERE!  */}
       Edit form goes here!
     </div>
