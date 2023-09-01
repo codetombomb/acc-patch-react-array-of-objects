@@ -7,10 +7,9 @@ const ItemCard = ({ dessert, handleEditDessertClick, handleDeleteDessertClick })
   const { id, name, image, description, cakeType } =
     dessert;
     const onDeleteDessertClick = () => {
-      const config = {
+      fetch(`http://localhost:3000/desserts/${id}`, {
         method: "DELETE"
-      }
-      fetch(`http://localhost:3000/desserts/${id}`, config)
+      })
       handleDeleteDessertClick(dessert)
     }
   return (

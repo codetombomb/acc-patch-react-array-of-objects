@@ -1,47 +1,11 @@
 {
   "desserts": [
     {
-      "id": 1,
-      "name": "White chocolate and cake pop ice-cream dessert",
-      "image": "https://img.taste.com.au/nohp8XG6/w720-h480-cfill-q80/taste/2016/11/white-chocolate-and-cake-pop-ice-cream-dessert-69514-1.jpeg",
-      "description": "Turn Christmas dessert into pop art with these colourful baubles sandwiched between sweet vanilla ice-cream and a crunchy biscuit shell.",
-      "cakeType": "Ice Cream Dessert",
-      "featured": true,
-      "likes": 0
-    },
-    {
-      "id": 2,
-      "name": "Fairy bread icebox cake",
-      "image": "https://img.taste.com.au/qYclOeMO/w720-h480-cfill-q80/taste/2017/05/fairy-bread-icebox-cake-126271-1.jpg",
-      "description": "For the perfect party cake, try this fairy bread icebox cake made from storebought biscuits.",
-      "cakeType": "Cake",
-      "featured": false,
-      "likes": 0
-    },
-    {
       "id": 3,
       "name": "'Better than Brad Pitt' five-layer dessert",
       "image": "https://img.taste.com.au/44mhGT_T/w720-h480-cfill-q80/taste/2016/11/better-than-brad-pitt-five-layer-dessert-108653-1.jpeg",
       "description": "This pudding is an update of a 1970's American dessert known as 'Better than Robert Redford'. It includes chocolate in all its forms - white, dark, milk. Team with cream, and it's a dream come true.",
       "cakeType": "Pudding",
-      "featured": true,
-      "likes": 0
-    },
-    {
-      "id": 4,
-      "name": "S'mores waffles",
-      "image": "https://img.taste.com.au/EABv3WGL/w720-h480-cfill-q80/taste/2016/11/smores-waffles-94040-1.jpeg",
-      "description": "Keep it short and sweet with this s'mores dessert that is ready in a flash.",
-      "cakeType": "Waffles",
-      "featured": false,
-      "likes": 0
-    },
-    {
-      "id": 5,
-      "name": "Tiramisu fridge cake",
-      "image": "https://img.taste.com.au/Vh-59q3a/w720-h480-cfill-q80/taste/2017/03/tiramisufridgecake-123081-1.jpg",
-      "description": "Impress your guests with this showstopper tiramisu fridge cake.",
-      "cakeType": "Cake",
       "featured": true,
       "likes": 0
     },

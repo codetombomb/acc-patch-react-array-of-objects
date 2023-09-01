@@ -48,7 +48,7 @@ function App() {
   const renderForm = () => {
     // What information does the EditItemForm need to know about?
     if (dessertId) {
-      return <EditItemForm />; // Add props here
+      return <EditItemForm dessertId={dessertId} handleDessertUpdate={onDessertUpdate}/>; // Add props here
     } else {
       return <ItemForm handleCreateDessert={onCreateDessert} />;
     }
